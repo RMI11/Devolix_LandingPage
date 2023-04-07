@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+#contact {
+  background: rgb(100,66,158);
+  background: linear-gradient(175deg, rgba(100,66,158,1) 0%, rgba(0,81,165,1) 28%, rgba(66,183,220,0.927608543417367) 100%);
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 28px;
+  }
+  
+  h3 {
+    font-size: 22px;
+  }
+  
+  p {
+    font-size: 15px;
+  }
+}
